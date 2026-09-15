@@ -84,3 +84,21 @@ article {
     width: 125px;
     margin-left: 12px;
 }
+
+header {
+    background-color: var(--primary-color);
+}
+
+header nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.hero article {
+    border-left: 4px solid var(--secondary-color);
+}
