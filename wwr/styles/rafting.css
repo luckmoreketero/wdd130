@@ -173,3 +173,61 @@ footer p {
     width: 32px;
     height: 32px;
 }
+
+/* CONTACT PAGE */
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+.map iframe {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.employees div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 650px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-item {
+    display: grid;
+    margin-bottom: 1rem;
+}
+
+.radio-group label,
+.checkbox label {
+    display: block;
+    margin: 0.3rem 0;
+}
+
+.contact-form button {
+    background-color: #0b4d70;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #083a55;
+}
